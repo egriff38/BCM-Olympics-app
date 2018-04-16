@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "webpack-dev-server --inline --mode=development --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
-    "socketServer":"node ./socketServer/index.js",
+    "socketServer":"node ./socketServer.js",
     "lint": "eslint --ext .js,.vue src",
     "build": "node build/build.js"
   },
