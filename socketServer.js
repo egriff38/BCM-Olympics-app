@@ -1,16 +1,15 @@
-const Server = require('socket.io')
+
 const EventEmitter = require('events')
-const HOST = 'localhost'
-const PORT = 8081
-const server = require('http').Server({ origins: '*'})
-let io = Server(PORT)
 const ticker = new EventEmitter()
-io.close() // Close current server
+const PORT = 8081
+var express = require('express'),
+    app = express(), 
+    server = require('http').createServer(app),
+    io = require('socket.io').listen(server, { origins: '*:*'}),
+    path = require('path');
+server.listen(PORT);
 
-server.listen(PORT) // PORT is free to use
-
-io = Server(server)
-console.log("Socket Server started on "+HOST+ ":"+PORT)
+console.log("Socket Server started on "+PORT)
 let names = {}
 let votes = {}
 let timer = {
