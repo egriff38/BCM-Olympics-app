@@ -31,7 +31,7 @@ modal#scoreBoard(popupID='scoreboard', ref='sbmodal')
 <script>
 import modal from '@/components/modal'
 import {TweenLite} from 'gsap'
-import clone from 'lodash/clone'
+import {clone} from 'lodash'
 
 let TweenNumber = (tweenedVal) => function (newValue, oldValue) {
   if (!this.$root.isScreen) return

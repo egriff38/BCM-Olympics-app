@@ -41,7 +41,7 @@ import score from '@/components/score'
 import missionaries from '@/components/modals/missionaries'
 import donations from '@/components/donations'
 import adminScore from '@/components/modals/adminScore'
-import get from 'lodash/get'
+import {get} from 'lodash'
 export default {
   name: 'navigation',
   mounted () {

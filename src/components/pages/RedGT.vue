@@ -9,7 +9,7 @@
 
 <script>
 import slideShow from '@/components/slideshow'
-import random from 'lodash/random'
+import {random} from 'lodash'
 export default {
   name: 'redGT',
   mounted () {

@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import round from 'lodash/round'
+import {round} from 'lodash'
 import { TweenLite } from 'gsap'
 export default {
   created () {

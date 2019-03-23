@@ -17,7 +17,7 @@ div(:class='{isScreen:$root.isScreen}')
 
 <script>
 import Timer from '@/components/Timer'
-import padStart from 'lodash/padstart'
+import {padStart} from 'lodash'
 export default {
   name: 'TimerPage',
   created () {
