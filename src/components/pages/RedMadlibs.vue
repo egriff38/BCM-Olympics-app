@@ -42,22 +42,23 @@ mixin nextlib
   .lib=lib.next().value
 .red.madlibz.box
   slideshow
-    span #[b.lib Kitchen Nightmares]
-    span Welcome back to Kitchen Nightmares. In this episode, our host #[+nextlib] will be visiting the #[+nextlib] grill.
-    span Owner #[+nextlib] believes his staff to be thieves, and as a result the staff hasn't recieved any #[+nextlib] in #[+nextlib].
-    span #[+nextlib] walks in and says "#[+nextlib]!"
-    span Before him was a pile of #[+nextlib], three #[+nextlib], and an unfinished #[+nextlib].
-    span The Chef #[+nextlib] explains #[+nextlib] the details of yesterday's #[+nextlib] event.
-    span #[+nextlib] picks up a #[+nextlib] off the floor and points it at the Chef.
-    span Just then, a customer #[+nextlib] into the kitchen #[+nextlib].
-    span The customer complains that the food tasted so #[+nextlib] that their #[+nextlib] #[+nextlib] #[+nextlib].
-    span The Chef proudly #[+nextlib] and offers the customer a complementary #[+nextlib].
-    span The customer was unhappy. "What am I supposed to do with this?"
-    span The customer turned and #[+nextlib] out just as the owner appeared in the #[+nextlib].
-    span "#[+nextlib]" the Chef said, approaching quickly, I need my #[+nextlib].
-    span The Chef got so mad, he threw down a #[+nextlib] and quit.
-    span The owner, looking #[+nextlib] turns to #[+nextlib] and offers him a job.
-    span He #[+nextlib] agrees and they #[+nextlib] into the sunset.
+    span #[b.lib Cooking with Mary]
+    span Welcome to Mary Poppins' Poppin #[+nextlib].
+    span Today's guest star is Raven, an angsty teen from Teen Titans.
+    span Suddenly, Thor #[+nextlib] into the scene.
+    span He had apparently received an invitation to a#[+nextlib], but took a wrong turn.
+    span Mary Poppins graciously asked Thor to join them in today's show.
+    span It's time for Mary and her crew to start cooking #[+nextlib] a la #[+nextlib].
+    span Mary #[+nextlib] the #[+nextlib], and asks Thor to put it in the #[+nextlib].
+    span Thor became impatient, so he grabs his hammer and #[+nextlib] the ingredients.
+    span Raven suggests making a new meal, but Mary is determined to salvage this meal. 
+    span There's a loud sound and Doc Brown #[+nextlib] through time. 
+    span He present his new invention, the amazing #[+nextlib]-inator 2000. 
+    span He turns it on, and, after a moment, the dish turns into a#[+nextlib]. 
+    span "Oops," Doc Brown says, "I brought my #[+nextlib]-inator instead of my #[+nextlib]-inator."
+    span Thor #[+nextlib] him away angrily and they both disappear offstage. 
+    span Mary Poppins got so #[+nextlib] that she bellowed "#[+nextlib]," and #[+nextlib] away #[+nextlib]. 
+    span The others were #[+nextlib] by her anger. They #[+nextlib] and left as well. 
 </template>
 
 <script>
