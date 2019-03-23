@@ -42,23 +42,18 @@ mixin nextlib
   .lib=lib.next().value
 .red.madlibz.box
   slideshow
-    span #[b.lib Cooking with Mary]
-    span Welcome to Mary Poppins' Poppin #[+nextlib].
-    span Today's guest star is Raven, an angsty teen from Teen Titans.
-    span Suddenly, Thor #[+nextlib] into the scene.
-    span He had apparently received an invitation to a#[+nextlib], but took a wrong turn.
-    span Mary Poppins graciously asked Thor to join them in today's show.
-    span It's time for Mary and her crew to start cooking #[+nextlib] a la #[+nextlib].
-    span Mary #[+nextlib] the #[+nextlib], and asks Thor to put it in the #[+nextlib].
-    span Thor became impatient, so he grabs his hammer and #[+nextlib] the ingredients.
-    span Raven suggests making a new meal, but Mary is determined to salvage this meal. 
-    span There's a loud sound and Doc Brown #[+nextlib] through time. 
-    span He present his new invention, the amazing #[+nextlib]-inator 2000. 
-    span He turns it on, and, after a moment, the dish turns into a#[+nextlib]. 
-    span "Oops," Doc Brown says, "I brought my #[+nextlib]-inator instead of my #[+nextlib]-inator."
-    span Thor #[+nextlib] him away angrily and they both disappear offstage. 
-    span Mary Poppins got so #[+nextlib] that she bellowed "#[+nextlib]," and #[+nextlib] away #[+nextlib]. 
-    span The others were #[+nextlib] by her anger. They #[+nextlib] and left as well. 
+    span #[+nextlib] and #[+nextlib] were #[+nextlib] down the hallways of a haunted house. 
+    span They heard this place was haunted by a #[+nextlib]-#[+nextlib] monster. 
+    span They were hoping that it wouldn't #[+nextlib] out of the #[+nextlib]. 
+    span Suddenly, they heard a #[+nextlib] noise, so they #[+nextlib] out of the room as #[+nextlib] as possible.
+    span The noise got #[+nextlib] and #[+nextlib], and the door burst open, revealing the #[+nextlib] #[+nextlib] and their assistant.
+    span She said that the only thing that could defeat the monster was a #[+nextlib]. 
+    span They questioned the #[+nextlib] #[+nextlib], but the #[+nextlib] promptly showed off their skills from their Ph.D. in #[+nextlib]. 
+    span Upon finding the #[+nextlib], they used #[+nextlib], #[+nextlib], and #[+nextlib] to build a trap. 
+    span Just then, the assistant #[+nextlib] into the room, and yelled "We need to hide, the #[+nextlib] monster is coming!"
+    span When they hid, they heard the trap go off and #[+nextlib] out of their hiding places with the #[+nextlib] in their hands. 
+    span But, to their surprise, the monster was just #[+nextlib] all along. 
+    span THE END
 </template>
 
 <script>
