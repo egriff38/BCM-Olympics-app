@@ -18,7 +18,7 @@ new Vue({
     roster: []
   },
   beforeCreate () {
-    this.socket = window.io('0.tcp.ngrok.io:12906', {origins: '*'})
+    this.socket = window.io('0.tcp.ngrok.io:12906', {origins: '*', secure: true})
   },
   created () {
     let self = this
