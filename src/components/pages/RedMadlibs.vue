@@ -42,17 +42,17 @@ mixin nextlib
   .lib=lib.next().value
 .red.madlibz.box
   slideshow
-    span #[+nextlib] and #[+nextlib] were #[+nextlib] down the hallways of a haunted house. 
-    span They heard this place was haunted by a #[+nextlib]-#[+nextlib] monster. 
-    span They were hoping that it wouldn't #[+nextlib] out of the #[+nextlib]. 
+    span #[+nextlib] and #[+nextlib] were #[+nextlib] down the hallways of a haunted house.
+    span They heard this place was haunted by a #[+nextlib]-#[+nextlib] monster.
+    span They were hoping that it wouldn't #[+nextlib] out of the #[+nextlib].
     span Suddenly, they heard a #[+nextlib] noise, so they #[+nextlib] out of the room as #[+nextlib] as possible.
     span The noise got #[+nextlib] and #[+nextlib], and the door burst open, revealing the #[+nextlib] #[+nextlib] and their assistant.
-    span She said that the only thing that could defeat the monster was a #[+nextlib]. 
-    span They questioned the #[+nextlib] #[+nextlib], but the #[+nextlib] promptly showed off their skills from their Ph.D. in #[+nextlib]. 
-    span Upon finding the #[+nextlib], they used #[+nextlib], #[+nextlib], and #[+nextlib] to build a trap. 
+    span She said that the only thing that could defeat the monster was a #[+nextlib].
+    span They questioned the #[+nextlib] #[+nextlib], but the #[+nextlib] promptly showed off their skills from their Ph.D. in #[+nextlib].
+    span Upon finding the #[+nextlib], they used #[+nextlib], #[+nextlib], and #[+nextlib] to build a trap.
     span Just then, the assistant #[+nextlib] into the room, and yelled "We need to hide, the #[+nextlib] monster is coming!"
-    span When they hid, they heard the trap go off and #[+nextlib] out of their hiding places with the #[+nextlib] in their hands. 
-    span But, to their surprise, the monster was just #[+nextlib] all along. 
+    span When they hid, they heard the trap go off and #[+nextlib] out of their hiding places with the #[+nextlib] in their hands.
+    span But, to their surprise, the monster was just #[+nextlib] all along.
     span THE END
 </template>
 

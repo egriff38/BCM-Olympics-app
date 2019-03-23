@@ -18,7 +18,7 @@ new Vue({
     roster: []
   },
   beforeCreate () {
-    this.socket = window.io('localhost:8081')
+    this.socket = window.io('0.tcp.ngrok.io:16120')
   },
   created () {
     let self = this

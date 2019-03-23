@@ -47,14 +47,14 @@ mixin nextlib
     span It's time for Mary and her crew to start cooking #[+nextlib] a la #[+nextlib].
     span Mary #[+nextlib] the #[+nextlib], and asks Thor to put it in the #[+nextlib].
     span Thor became impatient, so he grabs his hammer and #[+nextlib] the ingredients.
-    span Raven suggests making a new meal, but Mary is determined to salvage this meal. 
-    span There's a loud sound and Doc Brown #[+nextlib] through time. 
-    span He present his new invention, the amazing #[+nextlib]-inator 2000. 
-    span He turns it on, and, after a moment, the dish turns into a#[+nextlib]. 
+    span Raven suggests making a new meal, but Mary is determined to salvage this meal.
+    span There's a loud sound and Doc Brown #[+nextlib] through time.
+    span He present his new invention, the amazing #[+nextlib]-inator 2000.
+    span He turns it on, and, after a moment, the dish turns into a#[+nextlib].
     span "Oops," Doc Brown says, "I brought my #[+nextlib]-inator instead of my #[+nextlib]-inator."
-    span Thor #[+nextlib] him away angrily and they both disappear offstage. 
-    span Mary Poppins got so #[+nextlib] that she bellowed "#[+nextlib]," and #[+nextlib] away #[+nextlib]. 
-    span The others were #[+nextlib] by her anger. They #[+nextlib] and left as well. 
+    span Thor #[+nextlib] him away angrily and they both disappear offstage.
+    span Mary Poppins got so #[+nextlib] that she bellowed "#[+nextlib]," and #[+nextlib] away #[+nextlib].
+    span The others were #[+nextlib] by her anger. They #[+nextlib] and left as well.
 </template>
 
 <script>
