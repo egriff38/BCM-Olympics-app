@@ -55,7 +55,6 @@ export default {
       self.popup = popup
       console.log('popup')
     })
-    
   },
   data () {
     return {
