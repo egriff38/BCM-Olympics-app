@@ -8,6 +8,7 @@ div
 </template>
 
 <script>
+import {debounce} from 'lodash'
 export default {
   name: 'slideshow',
   data () {
@@ -35,7 +36,7 @@ export default {
   },
   watch: {
     currentSlide (newVal, oldVal) {
-      if (this.$root.isAdmin) this.$root.socket.emit('setSlideshow', newVal)
+      if (this.$root.isAdmin) debounce(() => this.$root.socket.emit('setSlideshow', newVal), 500)
       this.slides[oldVal].style.display = ''
       this.slides[newVal].style.display = 'block'
     }

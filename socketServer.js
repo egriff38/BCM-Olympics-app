@@ -2,7 +2,7 @@ const Server = require('socket.io')
 const EventEmitter = require('events')
 const HOST = 'localhost'
 const PORT = 8081
-const server = require('http').Server({ host: HOST })
+const server = require('http').Server({ origins: '*'})
 let io = Server(PORT)
 const ticker = new EventEmitter()
 io.close() // Close current server
@@ -52,24 +52,6 @@ io.on('connection', function (socket) {
     emitNames()
   })
   socket.on('refresh', emitNames)
-
-  socket.on('setTimer', function setTimer (totalTime) {
-    timer.totalTime = totalTime
-    emitTimer()
-  })
-  socket.on('startTimer', function startTimer () {
-    timer.running = true
-    emitTimer()
-  })
-  socket.on('pauseTimer', function pauseTimer () {
-    timer.running = false
-    emitTimer()
-  })
-  socket.on('endTimer', function endTimer () {
-    timer.running = false
-    timer.timeElapsed = 0
-    emitTimer()
-  })
   socket.on('pushDonation', function pushDonation (value) {
     console.log(`Donation of $${value} recieved`)
     donations.push({
@@ -101,26 +83,44 @@ io.on('connection', function (socket) {
       donationList[table]()
     }
   })
-  socket.on('setColor', function setColor (data) {
-    timer.color = data.color
-    emitUpdateColor()
-  })
-  socket.on('setPage', function setPage (data) {
-    page = data.page
-    emitPage()
-  })
-  socket.on('startVote', function startVote () {
-    votes = {}
-    Object.values(names).filter((e) => e !== 'screen' && e !== 'admin' && e.length < 20).forEach(element => {
-      votes[element] = null
+  
+    socket.on('setColor', function setColor (data) {
+      timer.color = data.color
+      emitUpdateColor()
     })
-    io.emit('votesOpened')
-    emitVoteResults()
-    socket.on('closeVote', function closeVote () {
+    socket.on('setPage', function setPage (data) {
+      page = data.page
+      emitPage()
+    })
+    socket.on('startVote', function startVote () {
+      votes = {}
+      Object.values(names).filter((e) => e !== 'screen' && e !== 'admin' && e.length < 20).forEach(element => {
+        votes[element] = null
+      })
+      io.emit('votesOpened')
       emitVoteResults()
-      io.emit('votesClosed')
+      socket.on('closeVote', function closeVote () {
+        emitVoteResults()
+        io.emit('votesClosed')
+      })
     })
-  })
+    socket.on('setTimer', function setTimer (totalTime) {
+      timer.totalTime = totalTime
+      emitTimer()
+    })
+    socket.on('startTimer', function startTimer () {
+      timer.running = true
+      emitTimer()
+    })
+    socket.on('pauseTimer', function pauseTimer () {
+      timer.running = false
+      emitTimer()
+    })
+    socket.on('endTimer', function endTimer () {
+      timer.running = false
+      timer.timeElapsed = 0
+      emitTimer()
+    })
   socket.on('vote', function (vote) {
     let name = names[socket.id]
     if (votes.hasOwnProperty(name)) {
